@@ -1,0 +1,14 @@
+Step 1: npm install tailwind-rn
+Step 2: npx tailwindcss init
+Step 3: tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {},
+  },
+  variants: {},
+  plugins: [],
+};
+Step 4: 
+npx tailwind-rn
+
+Step 5: import tailwind from 'tailwind-rn';

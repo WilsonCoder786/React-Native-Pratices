@@ -1,0 +1,10 @@
+Installation Steps For Drawer:
+
+Step 1 : npm install @react-navigation/native
+Step 2: npm install react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+Step 3: npm install @react-navigation/drawer
+Step 4: npm install react-native-reanimated@~2.2.0
+Step 5: open babel.config.js add this:
+plugins: ['react-native-reanimated/plugin'],
+Step 6 :  In App.jsx add this:
+import 'react-native-gesture-handler';
